@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+    width: 230px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-left {
+    align-self: flex-start;
+}
