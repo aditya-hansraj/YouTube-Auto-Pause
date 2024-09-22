@@ -13,18 +13,18 @@ document.addEventListener("DOMContentLoaded", function () {
   autoPlayWindow.checked = localStorage.getItem("playOnWindowChange") === "true";
 
   autoPauseTab.addEventListener("change", function () {
-    localStorage.setItem("pauseOnTabChange", string(autoPauseTab.checked));
+    localStorage.setItem("pauseOnTabChange", autoPauseTab.checked);
   });
 
   autoPlayTab.addEventListener("change", function () {
-    localStorage.setItem("playOnTabChange", string(autoPlayTab.checked));
+    localStorage.setItem("playOnTabChange", autoPlayTab.checked);
   });
 
   autoPauseWindow.addEventListener("change", function () {
-    localStorage.setItem("pauseOnWindowChange", string(autoPauseWindow.checked));
+    localStorage.setItem("pauseOnWindowChange", autoPauseWindow.checked);
   });
 
   autoPlayWindow.addEventListener("change", function () {
-    localStorage.setItem("playOnWindowChange", string(autoPlayWindow.checked));
+    localStorage.setItem("playOnWindowChange", autoPlayWindow.checked);
   });
 });

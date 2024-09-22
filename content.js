@@ -24,10 +24,10 @@ const playOnWindowChange = localStorage.getItem('playOnWindowChange') === 'true'
 
 // Handle tab visibility change
 document.addEventListener('visibilitychange', () => {
-  if (document.hidden && pauseOnTabChange) {
+  if (document.hidden) {
     console.log("tab ch - paused");
     pauseVideo();
-  } else if (!document.hidden && playOnTabChange) {
+  } else {
     console.log("tab ch - played");
     resumeVideo();
   }
@@ -35,15 +35,11 @@ document.addEventListener('visibilitychange', () => {
 
 // Handle window focus change
 window.addEventListener('blur', () => {
-  if (pauseOnWindowChange) {
     console.log("wnd ch - paused");
     pauseVideo();
-  }
 });
 
 window.addEventListener('focus', () => {
-  if (playOnWindowChange) {
     console.log("wnd ch - played");
     resumeVideo();
-  }
 });
