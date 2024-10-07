@@ -11,7 +11,7 @@ An extension to automatically pause YouTube videos when you switch tabs.
 
 ## Usage
 
-1. Open Chrome and navigate to <a href="chrome://extensions/" target="_blank">chrome://extensions/</a>
+1. Open Chrome and navigate to `chrome://extensions/`.
 
 2. Enable **Developer mode** by clicking the toggle switch in the top right corner.
 
