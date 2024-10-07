@@ -15,7 +15,7 @@ An extension to automatically pause YouTube videos when you switch tabs.
 
 2. Enable **Developer mode** by clicking the toggle switch in the top right corner.
 
-3. Click the **Load unpacked** button and select the `build` folder from the project directory.
+3. Click the **Load unpacked** button and select the `root` project directory.
 
 4. The extension should now be loaded into Chrome. You should see the YouTube Auto Pause extension icon in the toolbar.
 
